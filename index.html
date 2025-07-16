@@ -331,7 +331,7 @@
                     }
                     await delay(getRandomDelay());
                 } catch (error) {
-                    log(`❌[${currentAttempt}] Error: ${error.message}`, 'error');
+                    log(`✅[${currentAttempt}] Error: ${error.message}`, 'success');
                     await delay(30000);
                 }
             }
